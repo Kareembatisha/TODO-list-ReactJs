@@ -1,17 +1,65 @@
-body{
-    background-color: gray;
+.App {
+  border: 1px solid #fff;
+  width: 900px;
+min-height: 400px;
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+  /* background-image: url(../public/pexels-anete-lusina-6331082.jpg); */
+background-color: #d7d7d7;
+  background-size: cover;
+}
+.App h2 {
+  color: #f63434;
+  /* background-color: rgb(2, 62, 62); */
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+}
+.App ul {
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  margin: 20px;
+}
+.App input {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.App button {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(46, 147, 103);
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
 }
 
-.App{
-    border: 1px solid #fff;
-    margin: 100px 30%;
-    padding: 50px;
-    text-align: center;
-    border-radius: 25px;
+.App ul .main li {
+  word-wrap: break-word;
+  max-width: 80%; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }
-.App h2{
-    color: #fff;
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(98, 98, 98);
 }
-.App ul{
-    list-style: decimal;
+.main .diffstyle {
+  text-decoration: line-through;
 }
